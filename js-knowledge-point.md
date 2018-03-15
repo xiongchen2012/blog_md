@@ -1,6 +1,6 @@
 ## 知识点（吐槽大会看多了）
 
-### apply和call
+### 1.apply和call
 当一个 `object` 没有某个方法，但是其他的对象有，就可以通过`call`或`apply`来借助其它对象的方法来完成目标。
 
 [知乎大神的形象回答：](https://www.zhihu.com/question/20289071/answer/258643285)<br>
