@@ -110,11 +110,11 @@ PS：有些代码在第1阶段就可能会无法解析，典型的比如React的
 
 ```json
 {
-    "presets": ["es2015"] //配置了es2015 preset
+    "presets": ["es2015"] // 配置了es2015 preset
 }
-等价于
+// 等价于
 {
-    "plugins": ["es2015-arrow-functions","es2015-classes","es2015-literals" ...]
+    "plugins": ["es2015-arrow-functions","es2015-classes","es2015-literals" // ...]
 }
 ```
 
@@ -167,17 +167,17 @@ plugin和preset都支持各自进行配置，不同的插件和预设支持的�
         }], //需要用一个数组来配置plugin和它的选项
         ["plugin2",{
             "someoption": "value"
-            ...
+            //...
         }]
     ],
     "presets": [
         ["preset1",{
             "someoption": "value"
-            ...
+            //...
         }],
         ["preset2",{
             "someoption": "value"
-            ...
+            //...
         }],
     ]
 }
