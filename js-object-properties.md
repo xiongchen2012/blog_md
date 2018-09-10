@@ -83,7 +83,7 @@ JS对象还有一些属性是ECMAJavascript规范规定的，也只有规范会�
 
 属性描述符将上述字段的属性描述对象化，每一个对象的字段都可以用属性描述符来表达。比如：
 
-```json
+```javascript
 {
     value: 123,
     writable: false,
@@ -94,7 +94,7 @@ JS对象还有一些属性是ECMAJavascript规范规定的，也只有规范会�
 
 以上描述符定义了一个只读的字段，值是123；这种直接给出值的描述符叫**数据描述符**，还有一种通过getter/setter函数定义的描述符叫**存取描述符**，下面的描述符和上述的等价：
 
-```json
+```javascript
 {
     get: function(){ return 123 },
     enumerable: true,
